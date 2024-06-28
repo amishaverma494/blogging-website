@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TRENDY</title>
+</head>
+
+<body>
+<section id="navigation" >
+    
+    <div id="navbar" class=".section-pad">
+        <img src="images/logo.png" alt="" class="logo">
+        <div class="nav-link" id="navlink">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="" class="remove-menu">X</a></li>
+            </ul>
+        </div>
+        <div id="search">
+            <input type="text" placeholder="search blogs" id="search-input">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="mob-menu" onclick="mob_menu()">
+            <span class="fa fa-bars"></span>
+        </div>
+    </div>
+</section>
+
+<!-- blog content -->
+<section id="blog-post" class="section-padding" >
+    <h2>INK AND IDEAS</h2>
+    <div class="blog-post-col" style="margin-top: 10px;">
+        <h4 class="blog-post-date">22 APRIL2024</h4>
+        <img src="images/sliding-img4.jpg" alt="" style="height: 40vh;">
+        <div class="blog-post-col-content" style="overflow-y: auto;">
+            <p class="blog-post-col-content1" >Welcome to [TRENY]! We're passionate about education and committed to providing valuable resources, insights, and inspiration for learners of all ages. Join us as we explore the exciting world of learning and empower individuals to reach their full potential through education.
+
+                Feel free to customize it with your blog's specific name and any additional details you'd like to include!At [TRENDy], we're dedicated to fostering a culture of lifelong learning. Whether you're a student, educator, or lifelong learner, our blog is your go-to destination for insightful articles, practical tips, and valuable resources across various educational topics.
+
+                Our mission is simple: to inspire curiosity, promote critical thinking, and empower individuals to thrive in an ever-changing world. From study strategies and exam preparation to the latest trends in education technology, we're here to support you on your educational journey.
+                
+                Join us as we delve into the fascinating realms of science, literature, mathematics, and beyond. Let's embark on this enriching adventure together and unlock the transformative power of education.
+                
+                Thank you for visiting [TRENDY]. Together, let's ignite the spark of knowledge and embark on a journey of discovery.
+                
+                Feel free to personalize it further to align with your blog's unique voice and focus!
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+    </div>
+ 
+   
+</section >
+<section id="comment-section" class="section-padding">
+    <div id="comment-display">
+
+        <!-- <h5 id="display-commenter-name">Name</h5>
+        <p id="display-comment">This is comment</p> -->
+       
+    </div>
+    <div id="comment-input">
+
+        <input type="text" placeholder="enter name" id="commenter-name"> <span id="commenter-name-alert" style="color: red;"></span>
+        <textarea cols="30" rows="10" placeholder="comment your view" id="comment-text"></textarea> <span id="comment-text-alert" style="color: red;"></span>
+        <button id="comment-button" onclick="comment()">Comment</button>
+    </div>
+</section>
+
+<footer id="footer" >
+    <div class="footer-info">
+        <div class="footer-form">
+            <h2>Connect with us to get regular updates and newsletter</h2>
+            <!-- <form action=""> -->
+                <input type="text" placeholder="enter name">
+                <input type="text" placeholder="enter e-mail">
+                <button>Submit</button>
+            <!-- </form> -->
+        </div>
+        <div class="footer-datails">
+            <div class="social-media">
+                <h2>Connect Social</h2>
+                <a href="" class="social-link "> <i class="fa fa-facebook"></i>Facebook</a> <br> <br>
+                <a href="" class="social-link "> <i class="fa fa-twitter"></i>Twitter</a>  <br><br>
+                <a href="" class="social-link "> <i class="fa fa-linkedin"></i>Linkedin</a>
+            </div>
+            <div class="footer-more">
+                <h2>Explore More</h2>
+                <a href="" class="more-link "> Blogs</a> <br> <br>
+                <a href="" class="more-link ">About us</a>  <br> <br>
+                <a href="" class="more-link ">Contact us</a>  <br>
+            
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <h2> Copyright @2023 all right reserved || Harshit Tripahti</h2>
+    </div>
+</footer>
+   
+</body>
+  <script src="js/script.js"></script>
+</html>

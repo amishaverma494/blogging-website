@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Trendy</title>
+</head>
+
+<body>
+<section id="navigation" >
+    
+    <div id="navbar" class=".section-pad">
+        <img src="images/logo.png" alt="" class="logo">
+        <div class="nav-link" id="navlink">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="" class="remove-menu">X</a></li>
+            </ul>
+        </div>
+        <div id="search">
+            <input type="text" placeholder="search blogs" id="search-input">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="mob-menu" onclick="mob_menu()">
+            <span class="fa fa-bars"></span>
+        </div>
+    </div>
+</section>
+
+<!-- blog content -->
+<section id="blog-post" class="section-padding" >
+    <h2>Mastering the art of productivity</h2>
+    <div class="blog-post-col" style="margin-top: 10px;">
+        <h4 class="blog-post-date">November 23</h4>
+        <img src="images/sliding-img3.jpg" alt="" style="height: 40vh;">
+        <div class="blog-post-col-content" style="overflow-y: auto;">
+            <p class="blog-post-col-content1" >In a world filled with distractions and demands, mastering productivity is the key to unlocking success and achieving your goals. Whether you're striving for professional excellence, personal growth, or a healthy work-life balance, the ability to maximize your efficiency is essential.
+
+                In this blog post, we'll delve into seven game-changing strategies that will revolutionize the way you approach productivity. From time management techniques to harnessing the power of focus, we'll explore practical tips backed by science and real-world experience.
+                
+                Get ready to discover how to optimize your workflow, eliminate procrastination, and cultivate habits that propel you towards your aspirations. Whether you're a student, an entrepreneur, or a busy professional, these strategies will empower you to take control of your time and accomplish more with less stress.
+                
+                So if you're ready to unlock the secrets to peak productivity and become a master of your own efficiency, dive into this blog post and start your journey towards unparalleled success today!
+                
+                
+                
+                
+                
+                
+                
+    </div>
+ 
+   
+</section >
+<section id="comment-section" class="section-padding">
+    <div id="comment-display">
+
+        <!-- <h5 id="display-commenter-name">Name</h5>
+        <p id="display-comment">This is comment</p> -->
+       
+    </div>
+    <div id="comment-input">
+
+        <input type="text" placeholder="enter name" id="commenter-name"> <span id="commenter-name-alert" style="color: red;"></span>
+        <textarea cols="30" rows="10" placeholder="comment your view" id="comment-text"></textarea> <span id="comment-text-alert" style="color: red;"></span>
+        <button id="comment-button" onclick="comment()">Comment</button>
+    </div>
+</section>
+
+<footer id="footer" >
+    <div class="footer-info">
+        <div class="footer-form">
+            <h2>Connect with us to get regular updates and newsletter</h2>
+            <!-- <form action=""> -->
+                <input type="text" placeholder="enter name">
+                <input type="text" placeholder="enter e-mail">
+                <button>Submit</button>
+            <!-- </form> -->
+        </div>
+        <div class="footer-datails">
+            <div class="social-media">
+                <h2>Connect Social</h2>
+                <a href="" class="social-link "> <i class="fa fa-facebook"></i>Facebook</a> <br> <br>
+                <a href="" class="social-link "> <i class="fa fa-twitter"></i>Twitter</a>  <br><br>
+                <a href="" class="social-link "> <i class="fa fa-linkedin"></i>Linkedin</a>
+            </div>
+            <div class="footer-more">
+                <h2>Explore More</h2>
+                <a href="" class="more-link "> Blogs</a> <br> <br>
+                <a href="" class="more-link ">About us</a>  <br> <br>
+                <a href="" class="more-link ">Contact us</a>  <br>
+            
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <h2> Copyright @2024 all right reserved || Amisha verma</h2>
+    </div>
+</footer>
+   
+</body>
+  <script src="js/script.js"></script>
+</html>

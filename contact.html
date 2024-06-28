@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Blogger's World</title>
+</head>
+
+<body>
+<section id="navigation" >
+    
+    <div id="navbar" class=".section-pad" style="height: 10vh;">
+        <img src="images/logo.png" alt="" class="logo">
+        <div class="nav-link" id="navlink">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html"  >About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="" class="remove-menu">X</a></li>
+            </ul>
+        </div>
+        <!-- <div id="search">
+            <input type="text" placeholder="search blogs" id="search-input">
+            <button id="search-button">Search</button>
+        </div> -->
+        <div id="mob-menu" onclick="mob_menu()">
+            <span class="fa fa-bars"></span>
+        </div>
+    </div>
+</section>
+<section id="contact-body">
+    <h2>Connect with us</h2>
+   
+        <div id="contact-page" class="">
+            <button onclick="display_form()">Contact</button>
+        </div>
+
+    <div id="contact-form">
+        <input type="text" placeholder="enter name" id="name-input">
+        <input type="text" placeholder="enter email" id="email-input">
+        <input type="number" placeholder="enter phone number" id="num-input">
+        <button onclick="form_submit()">Submit</button>
+        <button id="cut-form" onclick="hide_form()"> cancel</button>
+    </div>
+</section>
+
+<footer id="footer" >
+    <div class="footer-info">
+        <div class="footer-form">
+            <h2>Connect with us to get regular updates and newsletter</h2>
+            <!-- <form action=""> -->
+                <input type="text" placeholder="enter name">
+                <input type="text" placeholder="enter e-mail">
+                <button>Submit</button>
+            <!-- </form> -->
+        </div>
+        <div class="footer-datails">
+            <div class="social-media">
+                <h2>Connect Social</h2>
+                <a href="" class="social-link "> <i class="fa fa-facebook"></i>Facebook</a> <br> <br>
+                <a href="" class="social-link "> <i class="fa fa-twitter"></i>Twitter</a>  <br><br>
+                <a href="" class="social-link "> <i class="fa fa-linkedin"></i>Linkedin</a>
+            </div>
+            <div class="footer-more">
+                <h2>Explore More</h2>
+                <a href="" class="more-link "> Blogs</a> <br> <br>
+                <a href="" class="more-link ">About us</a>  <br> <br>
+                <a href="" class="more-link ">Contact us</a>  <br>
+            
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <h2> Copyright @2024 all right reserved || Amisha verma</h2>
+    </div>
+</footer>
+   
+</body>
+  <script src="js/script.js"></script>
+</html>
